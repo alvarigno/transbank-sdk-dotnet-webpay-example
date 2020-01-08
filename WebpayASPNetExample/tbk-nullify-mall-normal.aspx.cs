@@ -110,7 +110,7 @@ namespace TestWebpay
                     }
                     break;
             }
-            HttpContext.Current.Response.Write("</br><a href='default.aspx'>&laquo; volver a index</a>");
+            HttpContext.Current.Response.Write("</br><a href='/'>&laquo; volver a index</a>");
         }
     }
 }
